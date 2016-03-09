@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    android:orientation="vertical">
+
+    <ImageView
+        style="@style/SetaParaEsquerda"
+        android:contentDescription="@string/seta_esquerda"
+        android:onClick="irParaTerceiraRazao" />
+
+    <TextView
+        android:id="@+id/titulo_quarta_razao"
+        style="@style/TituloStyle"
+        android:text="@string/titulo_quarta_razao" />
+
+    <ImageView
+        style="@style/SetaParaDireita"
+        android:contentDescription="@string/seta_direita"
+        android:onClick="irParaQuintaRazao" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titulo_quarta_razao"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TituloComFundo"
+                android:text="@string/mortes_ligacoes_fumo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="85%"
+                    android:textColor="#03a9f4"
+                    android:textSize="50sp" />
+
+                <TextView
+                    style="@style/ConteudoStyle"
+                    android:text="@string/mortes_ligacoes_fumo_conteudo1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="30%"
+                    android:textColor="#03a9f4"
+                    android:textSize="50sp" />
+
+                <TextView
+                    style="@style/ConteudoStyle"
+                    android:text="@string/mortes_ligacoes_fumo_conteudo2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="25%"
+                    android:textColor="#03a9f4"
+                    android:textSize="50sp" />
+
+                <TextView
+                    style="@style/ConteudoStyle"
+                    android:text="@string/mortes_ligacoes_fumo_conteudo3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="25%"
+                    android:textColor="#03a9f4"
+                    android:textSize="50sp" />
+
+                <TextView
+                    style="@style/ConteudoStyle"
+                    android:text="@string/mortes_ligacoes_fumo_conteudo4" />
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/TituloComFundo"
+                android:text="@string/fumantes_tendencia" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=" 10"
+                    android:textColor="#03a9f4"
+                    android:textSize="50sp" />
+
+                <TextView
+                    style="@style/ConteudoStyle"
+                    android:text="@string/fumantes_tendencia_conteudo1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="   5"
+                    android:textColor="#03a9f4"
+                    android:textSize="50sp" />
+
+                <TextView
+                    style="@style/ConteudoStyle"
+                    android:text="@string/fumantes_tendencia_conteudo2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="   5"
+                    android:textColor="#03a9f4"
+                    android:textSize="50sp" />
+
+                <TextView
+                    style="@style/ConteudoStyle"
+                    android:text="@string/fumantes_tendencia_conteudo3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="   2"
+                    android:textColor="#03a9f4"
+                    android:textSize="50sp" />
+
+                <TextView
+                    style="@style/ConteudoStyle"
+                    android:text="@string/fumantes_tendencia_conteudo4" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="   2"
+                    android:textColor="#03a9f4"
+                    android:textSize="50sp" />
+
+                <TextView
+                    style="@style/ConteudoStyle"
+                    android:text="@string/fumantes_tendencia_conteudo5" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

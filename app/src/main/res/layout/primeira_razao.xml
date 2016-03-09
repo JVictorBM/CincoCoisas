@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_margin="8dp"
+        android:onClick="irParaPaginaPrincipal"
+        style="@style/SetaParaEsquerda"
+        android:contentDescription="@string/seta_esquerda"/>
+
+    <TextView
+        android:id="@+id/titulo_primeira_razao"
+        android:text="@string/titulo_primeira_razao"
+        style="@style/TituloStyle"/>
+
+    <ImageView
+        android:onClick="irParaSegundaRazao"
+        style="@style/SetaParaDireita"
+        android:contentDescription="@string/seta_direita"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titulo_primeira_razao"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFF"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/numero_um"
+                    android:layout_gravity="top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:contentDescription="@string/numero_um"
+                    />
+
+                <TextView
+                    style="@style/ConteudoStyle"
+                    android:text="@string/primeira_razao_conteudo1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/numero_dois"
+                    android:layout_gravity="top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:contentDescription="@string/numero_dois"
+                    />
+
+                <TextView
+                    style="@style/ConteudoStyle"
+                    android:text="@string/primeira_razao_conteudo2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/numero_tres"
+                    android:layout_gravity="top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:contentDescription="@string/numero_tres"
+                    />
+
+                <TextView
+                    style="@style/ConteudoStyle"
+                    android:text="@string/primeira_razao_conteudo3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/numero_quatro"
+                    android:layout_gravity="top"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:contentDescription="@string/numero_quatro"
+                    />
+
+                <TextView
+                    style="@style/ConteudoStyle"
+                    android:text="@string/primeira_razao_conteudo4" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/corpo_humano_fumando"
+                android:contentDescription="@string/efeitos_cigarro_corpo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fonte_instituto_nacional"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

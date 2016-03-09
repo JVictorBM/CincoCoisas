@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">5 Reasons to quit smoking</string>
+    <!-- Main -->
+    <string name="titulo_main">Reasons to \nquit smoking</string>
+    <!-- Primeira razao -->
+    <string name="titulo_primeira_razao">How the cigarette work?</string>
+    <string name="primeira_razao_conteudo1">tobacco smoke during bring is inhaled into the lungs, spreading to the circulatory system and reach the brain between 7 and 9 seconds.</string>
+    <string name="primeira_razao_conteudo2">Blood flow is fast, and all the body\'s blood volume goes through the lungs in one minute. The inhaled substances span the body at a speed almost equal to the substances introduced by intravenous injection.</string>
+    <string name="primeira_razao_conteudo3">Once the nicotine reaches the brain releases several substances (neurotransmitters) responsible for stimulating the feeling of pleasure.</string>
+    <string name="primeira_razao_conteudo4">With the continuous ingestion of nicotine, the brain adapts and begins to need increasing doses to maintain the initial level of satisfaction. Over time, the smoker consumes more cigarettes.</string>
+    <string name="fonte_instituto_nacional">Source: Instituto Nacional de Câncer (Inca)</string>
+    <!-- Segunda razao -->
+    <string name="nicotina">Nicotine</string>
+    <string name="titulo_segunda_razao">Cigarette Substances</string>
+    <string name="nicotina_texto">Responsible for addiction, nicotine can do in 10 seconds all the way through the body, releasing dopamine, a hormone that gives the feeling of pleasure. Inhalation accelerates the heart rate, cause acute myocardial infarction, stroke, angina, bad fraction of elevated cholesterol, early menopause, gastritis, gastric ulcer, pulmonary emphysema, chronic bronchitis, and other ailments.</string>
+    <string name="metais_pesados">Heavy metals</string>
+    <string name="metais_pesados_texto">Among the metals present in the cigarette are: P4P6 the phosphorus and arsenic, both used as pesticides and highly toxic and can cause damage to the liver, kidneys, heart, lungs, bones and teeth; The lead acetate, hair dye substance may be deposited in the lungs and breathlessness generate, emphysema and lung cancer, can remain in the body for up to 30 years; and cadmium, metal carcinogen that causes lung cancer, prostate, kidney and stomach.</string>
+    <string name="alcatrao">Tar</string>
+    <string name="alcatrao_texto">The set of solid particles that are absorbed by the smoker. Among its compounds are carcinogenic nickel, lead, cadmium, benzene and polonium 210, the latter radioactive. It is also responsible for tar spots on the skin, teeth and fingers of the smoker, and deposited in the lungs, causing a dark brown color.</string>
+    <string name="monoxido_de_carbono">Carbon monoxide</string>
+    <string name="monoxido_de_carbono_texto">One of the major pollutants of the atmosphere, it binds to blood cells, obstructing the passage of hemoglobin. This causes difficulty in breathing and leaves the thicker blood, facilitating the formation of platelets and thrombus, which can cause damage to the heart and stroke. Cigarette smoke also has ketones and turpentine, and the first cause throat irritation, dizziness, and in large quantities, death. Turpentine causes eye irritation, dizziness, fainting and nervous system damage.</string>
+    <!-- Terceira razao -->
+    <string name="titulo_terceira_razao">Related disease</string>
+    <string name="terceira_razao_texto">Many studies show that consumption of tobacco (cigarette, cigar, narguillé) causes almost 50 different diseases, mainly cardiovascular (heart attack, angina), cancer and chronic obstructive pulmonary disease (emphysema and bronchitis). Cardiovascular disease and cancer are the leading causes of death by disease in Brazil and lung cancer, the leading cause of cancer death.</string>
+    <string name="pulmao_fumante_e_nao_fumante">Lung smokers VS non-smokers</string>
+    <string name="cancer_pulmao">Lung cancer</string>
+    <string name="clique_na_imagem">Click on image</string>
+    <string name="descricao_imagem_pulmao_nao_fumante">Lung a nonsmoker</string>
+    <string name="descricao_imagem_pulmao_fumante">Lung of a smoker</string>
+    <string name="descricao_imagem_cancer_estagio0">Stage 0: healthy lung.\n\n\n</string>
+    <string name="descricao_imagem_cancer_estagio1">Stage 1: shorter tumor diameter 3 cm.\n\n\n</string>
+    <string name="descricao_imagem_cancer_estagio2">Stage 2: Tumor between 3 cm and 7 cm in diameter.\nCan invade: bronchus, lung membrane and lymph nodes.</string>
+    <string name="descricao_imagem_cancer_estagio3">Stage 3: Tumor greater than 7 cm in diameter.\nCan invade: chest wall, phrenic nerve, diaphragm, spinal bone.\n</string>
+    <string name="descricao_imagem_cancer_estagio4">Stage 4: Tumor of any size in both lungs.\nCan invade: heart, trachea, esophagus, liver, bones.\n</string>
+    <!-- Quarta razao -->
+    <string name="titulo_quarta_razao">Statistic</string>
+    <string name="mortes_ligacoes_fumo">Deaths is linked to smoking</string>
+    <string name="mortes_ligacoes_fumo_conteudo1">of deaths from chronic obstructive lung disease.</string>
+    <string name="mortes_ligacoes_fumo_conteudo2">of cancer deaths, 90% of lung cancers.</string>
+    <string name="mortes_ligacoes_fumo_conteudo3">of deaths from coronary heart disease.</string>
+    <string name="mortes_ligacoes_fumo_conteudo4">of deaths from cerebrovascular changes.</string>
+    <string name="fumantes_tendencia">Smokers have a tendency</string>
+    <string name="fumantes_tendencia_conteudo1">times more likely to become ill from lung cancer.</string>
+    <string name="fumantes_tendencia_conteudo2">times more likely to suffer a heart attack.</string>
+    <string name="fumantes_tendencia_conteudo3">times more likely to suffer from chronic bronchitis and emphysema.</string>
+    <string name="fumantes_tendencia_conteudo4">times more likely to suffer a stroke.</string>
+    <string name="fumantes_tendencia_conteudo5">times get a general disease.</string>
+    <!-- Quinta razao -->
+    <string name="titulo_quinta_razao">Changes to stop</string>
+    <string name="primeiros_dias">In the first days</string>
+    <string name="oxigenio_extra">Extra oxygen</string>
+    <string name="oxigenio_extra_conteudo">The hemoglobin protein in red blood cells, stops charging extra carbon monoxide and is free to carry more oxygen to the organs. Fifteen cigarettes per day, for example, has committed this action by 9%.</string>
+    <string name="pulmoes_muco">Lungs without so much mucus</string>
+    <string name="pulmoes_muco_conteudo">The inflammation caused by smoke and decreases the bronchial cilia responsible for eliminating impurities will function as they should. So much of the stuck phlegm is expelled.</string>
+    <string name="primeiro_mes">In the first month</string>
+    <string name="abstinencia">Abstinence</string>
+    <string name="abstinencia_conteudo">The worst of the crack for showing up to the end of the first 30 days. But the lack of nicotine, that activated brain systems of pleasure and reward, causes symptoms such as irritation, anxiety and insomnia for a long period.</string>
+    <string name="paladar_apurado">Taste refined</string>
+    <string name="paladar_apurado_conteudo">Taste buds and smell receptors recover completely. This is because stop being assaulted by hot smoke. The desire to eat increases, as the taste of food is emphasized.</string>
+    <string name="em_ate_5_anos">Within 5 years</string>
+    <string name="menor_risco_derrame">Lower risk of stroke</string>
+    <string name="menor_risco_derrame_conteudo">The likelihood of a stroke hatch dropped significantly. Cigarette smoking is a major risk factor for ischemic stroke, which comes up when the blood supply to the brain is blocked.</string>
+    <string name="peito_blindado">Armored chest</string>
+    <string name="peito_blindado_conteudo">The whiffs destroy the heart vessels and promotes clot formation, which hinder the blood traffic, financing infarctions. In five years away from them, the risk of suffering a heart attack plummets by 50%.</string>
+
+    <!-- Descrições das imagens -->
+    <string name="corpo_humano">Human body</string>
+    <string name="numero_um">Number one</string>
+    <string name="numero_dois">Number two</string>
+    <string name="numero_tres">Number three</string>
+    <string name="numero_quatro">Number four</string>
+    <string name="efeitos_cigarro_corpo">Cigarette effects on the human body</string>
+    <string name="seta_esquerda">Left arrow</string>
+    <string name="seta_direita">Right arrow</string>
+    <string name="retornar">Arrow to return</string>
+
+</resources>

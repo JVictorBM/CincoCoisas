@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">5 Razões para parar de fumar</string>
+    <!-- Main -->
+    <string name="titulo_main">Razões para \nparar de fumar</string>
+    <!-- Primeira razao -->
+    <string name="titulo_primeira_razao">Como o cigarro funciona?</string>
+    <string name="primeira_razao_conteudo1">A fumaça do tabaco, durante o trago, é inalada para os pulmões, distribuindo-se para o sistema circulatório e chegando ao cérebro entre 7 e 9 segundos.</string>
+    <string name="primeira_razao_conteudo2">O fluxo sanguíneo é rápido, e todo o volume de sangue do corpo percorre os pulmões em 1 minuto. As substâncias inaladas espalham-se pelo organismo a uma velocidade quase igual à de substâncias introduzidas por injeção intravenosa.</string>
+    <string name="primeira_razao_conteudo3">Depois que a nicotina atinge o cérebro, libera várias substâncias (neurotransmissores) responsáveis por estimular a sensação de prazer.</string>
+    <string name="primeira_razao_conteudo4">Com a ingestão contínua de nicotina, o cérebro se adapta e passa a precisar de doses cada vez maiores para manter o nível de satisfação inicial. Com o passar do tempo, o fumante consome mais cigarros.</string>
+    <string name="fonte_instituto_nacional">Fonte: Instituto Nacional de Câncer (Inca)</string>
+    <!-- Segunda razao -->
+    <string name="nicotina">Nicotina</string>
+    <string name="titulo_segunda_razao">Substâncias do cigarro</string>
+    <string name="nicotina_texto">Responsável pelo vício, a nicotina consegue fazer em 10 segundos todo o percurso pelo corpo, liberando a dopamina, um hormônio que dá a sensação de prazer. Sua inalação acelera o ritmo cardíaco, causa infarto agudo do miocárdio, derrame cerebral, angina, elevação da fração ruim do colesterol, menopausa precoce, gastrite, úlcera gástrica, enfisema pulmonar, bronquite crônica, entre outros males.</string>
+    <string name="metais_pesados">Metais pesados</string>
+    <string name="metais_pesados_texto">Entre os metais presentes no cigarro estão: o fósforo P4P6 e o arsênico, ambos usados como pesticidas e altamente venenosos, podendo causar lesões no fígado, rins, coração, pulmões, ossos e dentes; o acetato de chumbo, substância de tintura de cabelo pode depositar-se nos pulmões e gerar falta de ar, enfisema e câncer de pulmão, podendo permanecer no corpo por até 30 anos; e o cádmio, metal cancerígeno que provoca câncer no pulmão, próstata, rins e estômago.</string>
+    <string name="alcatrao">Alcatrão</string>
+    <string name="alcatrao_texto">É o conjunto de partículas sólidas que são absorvidas pelo fumante. Entre os seus compostos estão os cancerígenos níquel, chumbo, cádmio, benzeno e polônio 210, este último radioativo. É o alcatrão também o responsável pelas manchas na pele, dentes e dedos do fumante, além de depositar-se nos pulmões, gerando uma coloração castanha escura.</string>
+    <string name="monoxido_de_carbono">Monóxido de carbono</string>
+    <string name="monoxido_de_carbono_texto">Um dos principais poluentes da atmosfera, ele se liga às células sanguíneas, dificultando a passagem da hemoglobina. Isso causa dificuldade de respirar e deixa o sangue mais grosso, facilitando a formação de plaquetas e trombos, que podem causar danos ao coração e derrame cerebral. A fumaça do cigarro também possui cetonas e terebintina, sendo que a primeira causa irritação na garganta, tonturas e em grandes quantidades, morte. A terebintina provoca irritação nos olhos, vertigem, desmaios e lesões no sistema nervoso.</string>
+    <!-- Terceira razao -->
+    <string name="titulo_terceira_razao">Doenças relacionadas</string>
+    <string name="terceira_razao_texto">Muitos estudos evidenciam que o consumo de derivados do tabaco (cigarro, charuto, narguillé) causa quase 50 doenças diferentes, principalmente as cardiovasculares (infarto, angina), o câncer e as doenças respiratórias obstrutivas crônicas (enfisema e bronquite). As doenças cardiovasculares e o câncer são as principais causas de morte por doença no Brasil, e o câncer de pulmão, a primeira causa de morte por câncer.</string>
+    <string name="pulmao_fumante_e_nao_fumante">Pulmão fumante X não fumante</string>
+    <string name="cancer_pulmao">Câncer de pulmão</string>
+    <string name="clique_na_imagem">Clique na imagem</string>
+    <string name="descricao_imagem_pulmao_nao_fumante">Pulmão de um não fumante</string>
+    <string name="descricao_imagem_pulmao_fumante">Pulmão de um fumante</string>
+    <string name="descricao_imagem_cancer_estagio0">Estágio 0: pulmão saúdavel.\n\n\n</string>
+    <string name="descricao_imagem_cancer_estagio1">Estágio 1: tumor menor que 3 cm de diâmetro.\n\n\n</string>
+    <string name="descricao_imagem_cancer_estagio2">Estágio 2: tumor entre 3 cm e 7 cm de diâmetro.\nPode invadir: brônquio, membrana do pulmão e linfonodos.</string>
+    <string name="descricao_imagem_cancer_estagio3">Estágio 3: tumor maior que 7 cm de diâmetro.\nPode invadir: parede torácica, nervo frênico, diafragma, osso da coluna.\n</string>
+    <string name="descricao_imagem_cancer_estagio4">Estágio 4: tumor de qualquer tamanho nos dois pulmões.\nPode invadir: coração, traqueia, esôfago, fígado, ossos.</string>
+    <!-- Quarta razao -->
+    <string name="titulo_quarta_razao">Estatística</string>
+    <string name="mortes_ligacoes_fumo">Mortes que tem ligação com o fumo</string>
+    <string name="mortes_ligacoes_fumo_conteudo1">das mortes por doenças pulmonares obstrutivas crônicas.</string>
+    <string name="mortes_ligacoes_fumo_conteudo2">dos óbitos por câncer, 90% deles de pulmão.</string>
+    <string name="mortes_ligacoes_fumo_conteudo3">das mortes por problemas coronarianos.</string>
+    <string name="mortes_ligacoes_fumo_conteudo4">das mortes por alterações cerebrovasculares.</string>
+    <string name="fumantes_tendencia">Fumantes tem uma tendência</string>
+    <string name="fumantes_tendencia_conteudo1">vezes maior de adoecer de câncer de pulmão.</string>
+    <string name="fumantes_tendencia_conteudo2">vezes maior de sofrer infarto.</string>
+    <string name="fumantes_tendencia_conteudo3">vezes maior de sofrer de bronquite crônica e enfisema pulmonar.</string>
+    <string name="fumantes_tendencia_conteudo4">vezes maior de sofrer derrame cerebral.</string>
+    <string name="fumantes_tendencia_conteudo5">vezes maior pegar uma doença em geral.</string>
+    <!-- Quinta razao -->
+    <string name="titulo_quinta_razao">Mudanças ao parar</string>
+    <string name="primeiros_dias">Nos primeiros dias</string>
+    <string name="oxigenio_extra">Oxigênio extra</string>
+    <string name="oxigenio_extra_conteudo">A hemoglobina, proteína dos glóbulos vermelhos do sangue, deixa de carregar monóxido de carbono extra e fica livre para transportar mais oxigênio aos órgãos. Quinze cigarros por dia, por exemplo, já comprometem essa ação em 9%.</string>
+    <string name="pulmoes_muco">Pulmões sem tanto muco</string>
+    <string name="pulmoes_muco_conteudo">A inflamação causada pela fumaça diminui e os cílios brônquicos responsáveis pela eliminação de impurezas passam a funcionar como deveriam. Assim, boa parte do catarro preso é expelido.</string>
+    <string name="primeiro_mes">No primeiro mês</string>
+    <string name="abstinencia">Abstinência</string>
+    <string name="abstinencia_conteudo">O pior da fissura para de dar as caras até o final dos primeiros 30 dias. Mas a falta de nicotina, que ativava os sistemas cerebrais de prazer e recompensa, causa sintomas como irritação, ansiedade e insônia por um bom período.</string>
+    <string name="paladar_apurado">Paladar apurado</string>
+    <string name="paladar_apurado_conteudo">Papilas gustativas e receptores do olfato se recuperam completamente. Isso porque param de ser agredidos pela fumaça quente. A vontade de comer aumenta, já que o gosto dos alimentos se acentua.</string>
+    <string name="em_ate_5_anos">Em até 5 anos</string>
+    <string name="menor_risco_derrame">Menor risco de derrame</string>
+    <string name="menor_risco_derrame_conteudo">A probabilidade de um acidente vascular cerebral eclodir cai consideravelmente. O cigarro é um dos principais fatores de risco para o tipo isquêmico, que vem à tona quando o abastecimento de sangue ao cérebro é bloqueado.</string>
+    <string name="peito_blindado">Peito blindado</string>
+    <string name="peito_blindado_conteudo">As baforadas destroem vasos do coração e favorecem a formação de coágulos, que dificultam o tráfego do sangue, financiando infartos. Em cinco anos longe delas, o risco de sofrer um ataque cardíaco despenca em até 50%.</string>
+
+    <!-- Descrições das imagens -->
+    <string name="corpo_humano">Corpo humano</string>
+    <string name="numero_um">Número um</string>
+    <string name="numero_dois">Número dois</string>
+    <string name="numero_tres">Número três</string>
+    <string name="numero_quatro">Número quatro</string>
+    <string name="efeitos_cigarro_corpo">Efeitos do cigarro no corpo humano</string>
+    <string name="seta_esquerda">Seta para a esquerda</string>
+    <string name="seta_direita">Seta para a direita</string>
+    <string name="retornar">Seta para retonar</string>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    android:orientation="vertical">
+
+    <ImageView
+        android:onClick="irParaSegundaRazao"
+        style="@style/SetaParaEsquerda"/>
+
+    <TextView
+        android:id="@+id/titulo_terceira_razao"
+        style="@style/TituloStyle"
+        android:text="@string/titulo_terceira_razao" />
+
+    <ImageView
+        android:onClick="irParaQuartaRazao"
+        style="@style/SetaParaDireita"
+        android:contentDescription="@string/seta_direita"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titulo_terceira_razao"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ConteudoStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/terceira_razao_texto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cinza_escuro"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/pulmao_fumante_e_nao_fumante"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textview_imagem_pulmao"
+                style="@style/ConteudoStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/descricao_imagem_pulmao_nao_fumante" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/clique_na_imagem"
+                android:textSize="12sp" />
+            <ImageView
+                android:id="@+id/img_fumante_nao_fumante"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:onClick="mudarImagemPulmaoFumanteENaoFumante"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pulmao_nao_fumante"
+                android:contentDescription="@string/descricao_imagem_pulmao_nao_fumante"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cinza_escuro"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/cancer_pulmao"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textview_imagem_cancer_pulmao"
+                style="@style/ConteudoStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/descricao_imagem_cancer_estagio0" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/clique_na_imagem"
+                android:textSize="12sp" />
+            <ImageView
+                android:id="@+id/img_estagio_cancer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="mudarImagemEstagioCancer"
+                android:scaleType="fitCenter"
+                android:src="@drawable/estagio0"
+                android:contentDescription="@string/descricao_imagem_cancer_estagio0"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
